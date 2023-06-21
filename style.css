@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* homepage */
+
+.slider-navigation {
+  position: absolute;
+  top: 33%;
+  left: 3%;
+}
+
+.slider-navigation ul li {
+  padding-top: 27px;
+  list-style-type: none;
+}
+
+.slider-navigation ul li a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+.bg-black {
+  background-color: black;
+  height: 64px;
+}
+.copyright {
+  position: relative;
+  top: 20px;
+
+  /* instagram posts */
+}
+.instagram-post {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.instagram-post img {
+  width: 100%;
+  height: auto;
+}
+
+.instagram-post a {
+  display: block;
+}
+
+/* instagram image gallery */
+.container {
+    margin-top: 50px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 576px) {
+    img {
+      margin-bottom: 10px;
+    }
+  }
+  
+/* 
+.zudio-instagram {
+  padding: 20px 0;
+  height: auto;
+  margin-left: 100px;
+}
+
+.quotes-slider {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+#Quotes-instagram-feed > div {
+  width: 33%;
+  padding: 10px;
+}
+
+.zudio-instagram .content {
+  margin-bottom: 30px;
+}
+
+.zudio-instagram .section-header h1 {
+  margin-top: 40px;
+}
+@media (max-width: 767px) {
+  .zudio-instagram {
+    padding: 0 0 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .zudio-instagram .section-header h1 {
+    margin: 0;
+  }
+  .zudio-instagram .section-header p {
+    margin: 0 0 10px;
+  }
+  .section-header {
+    margin-bottom: 0;
+  }
+  .template-page .main-content {
+    padding-top: 25px;
+  }
+  .zudio-instagram .content .zudio_instagram li img {
+    width: 95%;
+  }
+  #Quotes-instagram-feed > div {
+    width: 50%;
+    padding: 0 10px 10px;
+  }
+} */
+ /* Z Stories */
+.findthestore {
+  height: 200px;
+  background-color: gray;
+  text-align: center;
+}
+
+.findthestore .text-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.text-content .loc {
+  padding-left: 20px;
+  width: 40%;
+}
+
+.text-content .city {
+  width: 40%;
+  margin-left: 20%;
+}
+.storedetails {
+  background-color: #f3f3f3;
+}
+
+@media (max-width: 786px) {
+  .contact__us {
+    position: absolute;
+    right: 74px;
+    bottom: 33px;
+  }
+  div#shopify-section-footer .grid__item.medium-up--hide {
+    padding-top: 18px;
+  }
+}
+
+@media (max-width: 390px) {
+  .contact__us {
+    right: 52px !important;
+    bottom: 24px !important;
+  }
+  .site-footer {
+    padding: 5px 0;
+  }
+}
+.links {
+  color: black;
+}
+
+.links:hover {
+  color: gray;
+}
+.font-size1 {
+  font-size: 65px;
+}
+.font-size2 {
+  font-size: 30px;
+  color: #767779;
+}
+.link-font {
+  font-size: 65px;
+  position: relative;
+  left: 530px;
+  color: black;
+}
+.link-font:hover {
+  color: gray;
+}
